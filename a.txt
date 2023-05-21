@@ -1,0 +1,6 @@
+ vncserver -kill :3
+ ls /home/gitpod/.vnc
+ vncserver
+rm /home/gitpod/.vnc/m1n199-audioplayvnc-k8qkxh2j1hy:2.pid
+rm /home/gitpod/.vnc/m1n199-audioplayvnc-k8qkxh2j1hy:2.log
+ps aux | grep vnc
