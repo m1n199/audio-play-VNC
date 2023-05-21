@@ -1,0 +1,7 @@
+
+tasks:
+  - name: Start VNC Server
+    command: x11vnc -display :0 -nopw -listen localhost -xkb
+ports:
+  - port: 6080
+    onOpen: open-vnc-url
